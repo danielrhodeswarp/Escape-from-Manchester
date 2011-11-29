@@ -1,0 +1,37 @@
+<!--
+/**
+ * @package    Escape from Manchester (https://github.com/danielrhodeswarp/Escape-from-Manchester)
+ * @copyright  Copyright (c) 2009 - 2011 Warp Asylum Ltd (UK).
+ * @license    see LICENCE file in source code root folder     New BSD License
+ */
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8;"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript; charset=UTF-8;"/>
+<meta http-equiv="Content-Language" content="en"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<meta name="author" content="Warp Asylum Ltd (UK)"/>
+<meta name="copyright" content="Copyright &copy; 2009 - 2011 Warp Asylum Ltd (UK)"/>
+<title>Escape From Manchester</title>
+<link type="image/x-icon" href="favicon.ico" rel="shortcut icon"/>
+<script type="text/javascript" src="js/screen.js"></script>
+<script type="text/javascript" src="js/hotspot.js"></script>
+<script type="text/javascript" src="js/item.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body style="background:white;">
+<h1 style="font-size:1em;">Escape From Manchester</h1>
+<noscript><p>This page is a game which needs JavaScript.</p></noscript>
+<div id="canvas" onmousemove="dev(event);" style="float:left; position:relative; margin:0; padding:0; width:890px; height:470px;">
+<img id="screen_img" src="img/screen/blank.jpg" alt=""/>
+<img id="arrow_0" onmouseover="this.style.opacity='0.75'" onmouseout="this.style.opacity='0.5'" style="display:none; cursor:pointer; opacity:0.5; position:absolute; top:0; left:420px;" src="img/arrow_up.png" alt="up"/>
+<img id="arrow_1" onmouseover="this.style.opacity='0.75'" onmouseout="this.style.opacity='0.5'" style="display:none; cursor:pointer; opacity:0.5; position:absolute; top:206px; left:805px;" src="img/arrow_right.png" alt="right"/>
+<img id="arrow_2" onmouseover="this.style.opacity='0.75'" onmouseout="this.style.opacity='0.5'" style="display:none; cursor:pointer; opacity:0.5; position:absolute; top:382px; left:420px;" src="img/arrow_down.png" alt="down"/>
+<img id="arrow_3" onmouseover="this.style.opacity='0.75'" onmouseout="this.style.opacity='0.5'" style="display:none; cursor:pointer; opacity:0.5; position:absolute; top:205px; left:0px;" src="img/arrow_left.png" alt="left"/>
+</div>
+<div id="inventory" style="background-color:white; float:left; margin-left:10px; width:100px; overflow:hidden; border:1px solid green;"></div>
+<p id="caption" style="font-size:14px; clear:left;font-family:monospace; text-align:center; width:890px; color:blue;"></p>
+</body>
+</html>
