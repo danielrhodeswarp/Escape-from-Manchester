@@ -1,4 +1,4 @@
-# Escape from Manchester
+# escape-from-manchester
 
 ## What is it?
 
